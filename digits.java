@@ -1,7 +1,7 @@
 import java.util.*;
 public class java
 {
-  public static void main(string[] args)
+  public static int main(string[] args)
   {
     Scanner in=new Scanner(System.in);
     int n=in.nextInt();
@@ -12,5 +12,9 @@ public class java
       count=count+(int)(s.charAt(i));
     }
     System.out.print(count);
+    if(count%2==0)
+    return -1;
+    else
+    return 1;
   }
 }
