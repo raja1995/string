@@ -1,4 +1,4 @@
-import.java.util.*
+import.java.util.*;
 public class even
 {
   public static void main(String[] args)
@@ -18,6 +18,7 @@ public class even
       }
       max=ch.length-count;
       System.out.print(max);
+      in.close();
     }
   }
 }
